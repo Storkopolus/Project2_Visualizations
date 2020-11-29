@@ -9,7 +9,7 @@ var trace1 = {
 var data = [trace1];
 
 var layout = {
-  title: "2016 Vote Breakdown",
+  title: `2016 Votes: ${county_state} `,
 };
 
 Plotly.newPlot("plot1", data, layout);
@@ -23,7 +23,7 @@ var trace2 = {
   var data = [trace2];
   
   var layout = {
-    title: "2020 Vote Breakdown",
+    title: `2020 Votes: ${county_state}`,
   };
   
   Plotly.newPlot("plot2", data, layout);
