@@ -1,3 +1,5 @@
+var colors = ['rgb(165,0,38)', 'rgb(49,54,149)']
+
 var trace1 = {
   labels: ["Hillary Clinton", "Donald Trump"],
   values: [65844241,62979031],
@@ -8,6 +10,9 @@ var data = [trace1];
 
 var layout1 = {
   title: `2016 Votes `,
+  marker: {
+    color: colors
+  }
 };
 
 Plotly.newPlot("plot1", data, layout);
@@ -21,7 +26,11 @@ var trace2 = {
   var data = [trace2];
   
   var layout2 = {
-    title: `2020 Votes: ${county_state}`,
+    title: `2020 Votes`,
+    marker: {
+      color: colors
+    }
   };
+
   
   Plotly.newPlot("plot2", data, layout);
