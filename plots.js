@@ -1,4 +1,3 @@
- lb_plots
 //set colors for use in pie charts
 var colors = ['rgb(165,0,38)', 'rgb(49,54,149)']
 //Add 2016 candidates and total votes
@@ -35,34 +34,3 @@ var trace2 = {
   };
 //add new pie chart to plot2 div tag
 Plotly.newPlot("plot2", data2, layout);
-
-funciton init()
-
-var trace1 = {
-  labels: ["Hillary Clinton", "Donald Trump"],
-  values: [`${dem_votes}`,`${rep_votes}`],
-  type: 'pie'
-};
-
-var data = [trace1];
-
-var layout = {
-  title: `2016 Votes: ${county_state} `,
-};
-
-Plotly.newPlot("plot1", data, layout);
-
-var trace2 = {
-    labels: ["Joe Biden", "Donald Trump"],
-    values: [`${dem_votes}`,`${rep_votes}`],
-    type: 'pie'
-  };
-  
-  var data = [trace2];
-  
-  var layout = {
-    title: `2020 Votes: ${county_state}`,
-  };
-  
-  Plotly.newPlot("plot2", data, layout);
- main
