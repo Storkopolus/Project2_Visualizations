@@ -1,4 +1,15 @@
-.top-cards{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,12,123,1) 37%, rgba(9,9,121,1) 64%, rgba(8,8,133,1) 86%, rgba(86,132,255,1) 100%);
+.card {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mid_card{
+    width: 700px;
+    height: 700px;
+}
+
+.botm_card{
+
+}
+
+.top_card{
 }
