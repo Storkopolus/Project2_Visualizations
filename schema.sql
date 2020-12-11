@@ -29,11 +29,15 @@ CREATE TABLE "candidates" (
 );
 
 CREATE TABLE "county_votes" (
+    "ID" INTEGER   NOT NULL,
     "county_state_ID" INTEGER   NOT NULL,
     "candidate_ID" INTEGER   NOT NULL,
     "candidate_votes" INTEGER   NOT NULL,
     "total_votes" INTEGER   NOT NULL,
-    "year" INTEGER   NOT NULL
+    "year" INTEGER   NOT NULL,
+    CONSTRAINT "pk_county_votes" PRIMARY KEY (
+        "ID"
+     )
 );
 
 ALTER TABLE "candidates" ADD CONSTRAINT "fk_candidates_party_ID" FOREIGN KEY("party_ID")
