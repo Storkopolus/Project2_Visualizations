@@ -2,7 +2,7 @@
 
 ## Project Presentation:
 
-https://github.com/Storkopolus/Project2_Visualizations/blob/main/Project_2-Web_Visualizations_Presentation
+Project_2-Web_Visualizations_Presentation.pdf
 
 ## TEAM Work Completed:
 Ben:	
