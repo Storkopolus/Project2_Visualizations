@@ -2,30 +2,30 @@
 
 ## TEAM Work Completed:
 Ben:	
- -Found data sources
- -Imported Data Sets (made merge-clean.ipynb)
- -Cleaned data (made merge-clean.ipynb)
- -Hosted Github and merged any files when requested
- -Completed coding for API (made app.py)
- -Set Up Format and Extraneous Slides for Presentation 
+ 1. Found data sources
+ 2. Imported Data Sets (made merge-clean.ipynb)
+ 3. Cleaned data (made merge-clean.ipynb)
+ 4. Hosted Github and merged any files when requested
+ 5. Completed coding for API (made app.py)
+ 6. Set Up Format and Extraneous Slides for Presentation 
  
 Jermaine: 
- -Created index.html w/ Javascript components
- -Linked web coding to Flask route
- -Created web sketch
- -Added visual data to webpage
+ 1. Created index.html w/ Javascript components
+ 2. Linked web coding to Flask route
+ 3. Created web sketch
+ 4. Added visual data to webpage
 
 Leah:  
- -Created ERD & SQL schema
- -Created data visualizations with Plotly and D3
- -Assisted with front end design, specifically the team page
- -Assisted in troubleshooting Flask app
+ 1. Created ERD & SQL schema
+ 2. Created data visualizations with Plotly and D3
+ 3. Assisted with front end design, specifically the team page
+ 4. Assisted in troubleshooting Flask app
 	
 Cristina: 
- -AWS 
- -Added final code to merge-clean.ipynb to upload files to Postgres AWS server
- -Postgres (Set up postgres server on AWS)
- -Leaflet Coding to have Counties outlined with GeoJson, zoom in and display pop-up when clicking on a county
+ 1. AWS 
+ 2. Added final code to merge-clean.ipynb to upload files to Postgres AWS server
+ 3. Postgres (Set up postgres server on AWS)
+ 4. Leaflet Coding to have Counties outlined with GeoJson, zoom in and display pop-up when clicking on a county
 
 
 ## Website:
